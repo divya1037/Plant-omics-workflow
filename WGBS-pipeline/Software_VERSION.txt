@@ -1,0 +1,16 @@
+| Software     |    Version |
+| ------------ | ---------: |
+| SRA Toolkit  |      3.4.1 |
+| FastQC       |     0.11.9 |
+| Trim Galore! | 0.6.11 |
+| Cutadapt     |        3.5 |
+| Bismark      |     0.25.1 |
+| Bowtie2      |      2.4.4 |
+| SAMtools     |       1.13 |
+| R            |      4.5.2 |
+| Bioconductor |       3.22 |
+| data.table   |   1.18.2.1 |
+| ggplot2      |      4.0.2 |
+| dplyr        |      1.1.4 |
+| readr        |      2.2.0 |
+| edgeR        |      4.8.2 |
