@@ -1,0 +1,42 @@
+name: wgbs_pipeline
+
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+
+  # Core Language
+  - r-base=4.5.1
+
+  # Sequence Data Download
+  - sra-tools=3.0.7
+
+  # Quality Control
+  - fastqc=0.12.1
+  - multiqc=1.20
+
+  # Read Preprocessing
+  - trim-galore=0.6.10
+  - cutadapt=4.4
+
+  # Alignment
+  - bowtie2=2.5.1
+  - bismark=0.25.1
+
+  # BAM Processing
+  - samtools=1.22
+
+  # Compression
+  - pigz
+
+  # R Packages
+  - r-data.table
+  - r-ggplot2
+  - r-readr
+  - r-dplyr
+
+  # Optional (for downstream methylation analysis)
+  - bioconductor-methylkit
+  - bioconductor-dss
