@@ -90,10 +90,10 @@ ATAC-seq/
 │   └── sample.tsv
 │
 ├── annotation/
-│   └── ANNOTATED_ALL_PEAKS.txt
+│   
 │
 ├── blacklist/
-│   └── final_blacklist.bed
+│ 
 │
 └── results/
 ```
