@@ -1,0 +1,17 @@
+name: atacseq_analysis
+
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - fastqc
+  - trim-galore
+  - multiqc
+  - bowtie2
+  - samtools
+  - bedtools
+  - picard
+  - macs2
+
